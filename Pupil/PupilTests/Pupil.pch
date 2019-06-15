@@ -1,0 +1,22 @@
+//
+//  Pupil.pch
+//  Pupil
+//
+//  Created by 彭孟力 on 2018/2/7.
+//  Copyright © 2018年 彭孟力. All rights reserved.
+//
+
+#ifndef Pupil_pch
+#define Pupil_pch
+
+#import "HWConst.h"
+#import "UIView+ViewFrameGeometry.h"
+//#import "AppDelegate.h"
+
+typedef NS_ENUM(NSInteger, LimbDirection) {
+    TransversalType,//横
+    VerticalType//竖
+};
+#define kChangePic @"kChangePic"
+//#define kAppDelegate  ((AppDelegate *)[UIApplication sharedApplication].delegate)
+#endif /* Pupil_pch */
